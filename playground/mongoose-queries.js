@@ -11,6 +11,8 @@ User.findById(userId).then((user) => {
   }
 
   console.log("User by ID", user);
+}, (e) () => {
+  console.log("Unable to find user", e);
 }).catch((e) => console.log(e));
 
 // var id = "5bf1a4e8c97d750414023c3811";
