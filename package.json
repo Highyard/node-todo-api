@@ -16,6 +16,7 @@
   "dependencies": {
     "expect": "^1.20.2",
     "express": "^4.16.4",
+    "lodash": "^4.17.11",
     "mocha": "^3.0.2",
     "mongoose": "^5.3.12",
     "nodemon": "^1.10.2",
