@@ -91,7 +91,7 @@ describe("GET /todos/:id", () => {
       .get(`/todos/${id}`)
       .expect(404)
       .end(done);
-  })
+  });
 
 
   it("should return 404 for non-object ids", (done) => {
@@ -99,5 +99,5 @@ describe("GET /todos/:id", () => {
       .get("/todos/123")
       .expect(404)
       .end(done);
-  })
+  });
 });
